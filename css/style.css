@@ -109,7 +109,7 @@ ol li {
 }
 
 #main { 
-  width: 950px;
+  width: 1920px;
   margin: 20px auto 0 auto;
 }
 
@@ -152,7 +152,7 @@ nav {
 } 
 
 #site_content { 
-  width: 950px;
+  width: 1920px;
   overflow: hidden;
   margin: 4px auto 0 auto;
   padding: 0;
@@ -170,7 +170,7 @@ nav {
 
 #content { 
   text-align: justify;
-  width: 444px;
+  width: 950px;
   padding: 0 0 5px 30px;
   margin: 0;
   float: left;
@@ -335,51 +335,3 @@ ul img {
   border:none;  
 }
 
-
-
-/* from here: http://www.gmarwaha.com/blog/2007/08/23/lavalamp-for-jquery-lovers */
-.lavaLampWithImage {
-  position: relative;
-  height: 25px;
-  padding: 15px 5px 15px 0;
-  margin: 10px 0 0 0;
-  overflow: hidden;
-  float: right;
-}
-
-.lavaLampWithImage li {
-  float: left;
-  list-style: none;
-}
-
-.lavaLampWithImage li.back {
-  background: #DDD;
-  border-radius: 15px 15px 15px 15px;
-  -moz-border-radius: 15px 15px 15px 15px;
-  -webkit-border: 15px 15px 15px 15px;
-  height: 28px;
-  z-index: 8;
-  position: absolute;
-}
-
-.lavaLampWithImage li a {
-  font: normal 130% 'News Cycle', sans-serif;
-  text-shadow:1px 1px #FFF;
-  text-decoration: none;
-  color: #222;
-  outline: none;
-  text-align: center;
-  letter-spacing: 0;
-  z-index: 10;
-  display: block;
-  float: left;
-  height: 30px;
-  padding: 0px 9px 0 9px;
-  position: relative;
-  overflow: hidden;
-  margin: auto 10px;    
-}
-
-.lavaLampWithImage li a:hover, .lavaLampWithImage li a:active, .lavaLampWithImage li a:visited {
-  border: none;
-}
