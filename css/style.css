@@ -108,10 +108,22 @@ footer
   margin-top: 10vh;
 }
 
+#playtest
+{
+    height:165px;
+    width:206px;
+  filter: drop-shadow(8px 8px 10px black);
+
+  margin-left: 5vh;
+  margin-top: -17.5vh;
+  float:left;
+
+}
+
 #presskit
 {
   height:15vh;
-  width: 35vh;
+  width: 25vh;
   margin-top: 2.55vh;
   filter: drop-shadow(8px 8px 10px black);
 }
