@@ -73,6 +73,27 @@ footer
    position: relative;
 }
 
+#textTitle
+{
+  height: 5vh;
+  width: 20vh;
+  position:relative;       
+  float:left;
+  text-align: center;
+  margin-top: 2%;
+      margin-left: 1vh;
+}
+
+#p2
+{
+    font-size: 36px;
+    color: #CCCCCC;
+    filter: drop-shadow(8px 8px 10px black);
+    position:relative;
+    margin:0;
+}
+
+
 #space{
   height: 5vh;
   width: 10vh;
@@ -85,6 +106,45 @@ footer
   width: 5vh;
   margin-left: 2vh;
   margin-top: 10vh;
+}
+
+#presskit
+{
+  height:15vh;
+  width: 35vh;
+  margin-top: 2.55vh;
+  filter: drop-shadow(8px 8px 10px black);
+}
+
+#player
+{
+    float:left;
+    height:96px;
+    width:96px;
+    background-image: url("../images/player.gif");
+    left:0;
+}
+
+#presskitimage
+{
+    height:96px;
+    width:192px;
+    background-image: url("../images/PressKit.png");
+    float: left;
+    left:auto;
+    right:0;
+
+    margin-left: 1vh;
+
+   position:relative;
+     cursor: pointer;
+}
+
+#presskitimage:hover
+{
+         filter: drop-shadow(8px 8px 10px black);
+             animation: mymovehover 1.5s;
+   animation-iteration-count: infinite;
 }
 
 .btnrrss
