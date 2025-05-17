@@ -63,11 +63,14 @@ footer
   animation-iteration-count: infinite;
 }
 
-p
+#p1
 {
     font-size: 72px;
     color: #CCCCCC;
       filter: drop-shadow(8px 8px 10px black);
+         animation: mymove 3s;
+   animation-iteration-count: infinite;
+   position: relative;
 }
 
 #space{
@@ -76,9 +79,58 @@ p
 
 }
 
+#buttons
+{
+  height:25vh;
+  width: 5vh;
+  margin-left: 2vh;
+  margin-top: 10vh;
+}
+
+.btnrrss
+{
+    height: 5vh;
+  width: 5vh;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: #white;
+  margin-top: 1vh;
+}
+
+.bi
+{
+    margin-top: 10%;
+}
+
+.btnrrss:hover
+{
+     filter: drop-shadow(8px 8px 10px black);
+     animation: mymovehover 2s;
+   animation-iteration-count: infinite;
+   position:relative;
+}
+
+
+
 @keyframes mymove {
   0%   {top: 0px;}
   50%  {top: -10px;}
   100% {top: 0px;}
 }
+
+@keyframes mymovehover {
+  0%   {top: 0px;}
+  50%  {top: -5px;}
+  100% {top: 0px;}
+}
+
+@keyframes mymovehorizontal {
+  0%   {left: 0px;}
+  50%  {left: -10px;}
+  100% {left: 0px;}
+}
+
+
+
 
