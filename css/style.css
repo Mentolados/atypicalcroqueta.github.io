@@ -63,6 +63,15 @@ footer
   animation-iteration-count: infinite;
 }
 
+#trailer3{
+  height: 540px;
+  width: 960px;
+  filter: drop-shadow(8px 8px 10px black);
+  position:relative;
+  animation: mymove 6s;
+  animation-iteration-count: infinite;
+}
+
 #p1
 {
     font-size: 72px;
